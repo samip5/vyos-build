@@ -66,7 +66,8 @@ jobs:
               --custom-package "jq" \
               --custom-package "moreutils" \
               --custom-package "python3-venv" \
-              --custom-package "tree"
+              --custom-package "tree" \
+              --custom-package "age"
 
       - name: Create release with artifact
         uses: ncipollo/release-action@a2e71bdd4e7dab70ca26a852f29600c98b33153e # v1
